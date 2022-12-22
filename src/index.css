@@ -1,3 +1,14 @@
 * {
   font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #124e78;
+  --white: #fafafa;
+  --gray: #555555;
+  --shadow: #cbcbcb;
+  --red: #d74e09;
 }
