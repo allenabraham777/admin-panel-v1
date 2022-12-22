@@ -1,7 +1,13 @@
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+import Navbar from "./components/Navbar";
 
-export default App
+type Props = {};
+
+const App = (props: Props) => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
+};
+
+export default App;
